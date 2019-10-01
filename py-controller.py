@@ -1,14 +1,7 @@
 import serial
 import keyboard
-from subprocess import Popen, PIPE
 
 ser = serial.Serial(port="/dev/ttyUSB1")
-
-
-def keypress(sequence):
-    p = Popen(['xte'], stdin=PIPE)
-    p.communicate(input=sequence)
-
 
 while True:
     key, value = ser.readline().decode("ascii").strip().split(": ")
