@@ -9,6 +9,7 @@ while True:
     if key == "Switch" and value == 0:
         print(value)
         keyboard.press("a")
+        keyboard.press("page up")
     
     if key == "X-axis" and value >= 800:
         print(value)
