@@ -1,7 +1,7 @@
 import serial
 import keyboard
 
-ser = serial.Serial(port="/dev/ttyUSB1")
+ser = serial.Serial(port=" ") #You can find the port in the arduino IDE
 
 while True:
     key, value = ser.readline().decode("ascii").strip().split(": ")

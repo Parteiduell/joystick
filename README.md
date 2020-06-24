@@ -6,3 +6,5 @@ Die Joystick_Module.ino wird auf einen adruino geflasht und der joystick muss mi
 (Wird wahrscheinlich auch mit anderen Arduinos funktionieren getestet ist es mit einem Nano)
 
 py-controller.py muss unter Python3 ausgeführt werden. In der datei muss noch der Port des Gerätes angegeben werden.
+
+Es müssen die zwei Python Libaries serial und keyboard installiert werden.
