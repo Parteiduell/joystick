@@ -99,5 +99,5 @@ pyobjc-framework-VideoSubscriberAccount==5.2
 pyobjc-framework-VideoToolbox==5.2
 pyobjc-framework-Vision==5.2
 pyobjc-framework-WebKit==5.2
-PyYAML==5.1.2
+PyYAML==5.4
 serial==0.0.97
